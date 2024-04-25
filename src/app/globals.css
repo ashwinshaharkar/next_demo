@@ -16,12 +16,23 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.main-container ul {
+  padding-left: 3em;
+}
+
+.main-container li {
+  list-style: disc;
+}
+
+.main-container u {
+  display: block;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-weight: 600;
 }

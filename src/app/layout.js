@@ -21,21 +21,21 @@ export default function RootLayout({ children }) {
           <div className="row"><Link href="/">Home</Link></div>
           <div className="row mt-3">
             <div className="col-sm-3 bg-light border p-5">
-              <h2 className="text-capitalize h3">Questions</h2>
+              <h3 className="h3">Questions</h3>
               <ul>
-                <li className="p-2"><Link href="/question/q1">Question 1</Link></li>
-                <li className="p-2"><Link href="/question/q2">Question 2</Link></li>
-                <li className="p-2"><Link href="/question/q3">Question 3</Link></li>
-                <li className="p-2"><Link href="/question/q4">Question 4</Link></li>
-                <li className="p-2"><Link href="/question/q5">Question 5</Link></li>
-                <li className="p-2"><Link href="/question/q6">Question 6</Link></li>
-                <li className="p-2"><Link href="/question/q7">Question 7</Link></li>
-                <li className="p-2"><Link href="/question/q8">Question 8</Link></li>
-                <li className="p-2"><Link href="/question/q9">Question 9</Link></li>
-                <li className="p-2"><Link href="/question/q10">Question 10</Link></li>
+                <li className="p-2"><Link href="/question/q1">Question #1</Link></li>
+                <li className="p-2"><Link href="/question/q2">Question #2</Link></li>
+                <li className="p-2"><Link href="/question/q3">Question #3</Link></li>
+                <li className="p-2"><Link href="/question/q4">Question #4</Link></li>
+                <li className="p-2"><Link href="/question/q5">Question #5</Link></li>
+                <li className="p-2"><Link href="/question/q6">Question #6</Link></li>
+                <li className="p-2"><Link href="/question/q7">Question #7</Link></li>
+                <li className="p-2"><Link href="/question/q8">Question #8</Link></li>
+                <li className="p-2"><Link href="/question/q9">Question #9</Link></li>
+                <li className="p-2"><Link href="/question/q10">Question #10</Link></li>
               </ul>
             </div>
-            <div className="col-sm-9 bg-light border p-5">
+            <div className="col-sm-9 bg-light border p-5 main-container">
               {children}
             </div>
           </div>
