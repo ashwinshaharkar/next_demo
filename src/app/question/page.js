@@ -1,9 +1,10 @@
 import React from 'react';
 import { promises as fs } from 'fs';
-
+import path from 'path';
 
 export default async function Questions({ params }) {
-  const file = await fs.readFile(process.cwd() + '/data.json', 'utf8');
+  const jsonPath = path.join(process.cwd(), 'public', 'data.json');
+  const file = await fs.readFile(jsonPath, 'utf8');
   const data = JSON.parse(file);
   const id = 1;
 
