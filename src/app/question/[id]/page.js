@@ -10,7 +10,7 @@ export default async function Questions({ params }) {
 
   return (
     <div className="container">
-      <h3 className="h3">{data[id].title}</h3>
+      <h3 className="h3" dangerouslySetInnerHTML={{ __html: data[id].title }} suppressHydrationWarning={true} />
       <div className="answer_wrapper pt-3" dangerouslySetInnerHTML={{ __html: data[id].content }} suppressHydrationWarning={true} />
     </div>
   );

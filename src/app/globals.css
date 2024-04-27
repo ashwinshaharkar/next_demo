@@ -23,11 +23,20 @@
 }
 
 .main-container ul {
-  padding-left: 3em;
+  padding-left: 2em;
+}
+
+.main-container ul ul {
+  padding-left: 2em;
+  margin-top: 1em;
 }
 
 .main-container li {
   list-style: disc;
+}
+
+.main-container li ul li {
+  list-style: circle;
 }
 
 .main-container u {
@@ -37,6 +46,6 @@
   font-weight: 600;
 }
 
-.separator{
+.separator {
   display: none;
 }
